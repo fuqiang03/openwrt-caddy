@@ -6,12 +6,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=caddy
-PKG_VERSION:=2.9.0-beta.2
+PKG_VERSION:=2.9.0-beta.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/caddyserver/caddy/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=26f3df7921512227a52c63f1f174183e96b0fbd658def89d7b21df9417d69cf5
+PKG_HASH:=105711976f286d93eabac88323401c20bd54f7ec9e6bcbb1a0b136f265b78b9c
 
 PKG_LICENSE:=GPL-3.0-or-later
 PKG_LICENSE_FILES:=LICENSE
